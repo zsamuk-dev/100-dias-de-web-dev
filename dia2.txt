@@ -1,0 +1,16 @@
+Dominando o método MAP do Javascript
+
+Array -> estrutura de dado que pode-se armazenar vários valores em um determinado espaçaço da memória. Os dados são localizados por indices. Podem ter funções ou também chamado de métodos.
+
+Método <-> é uma função.
+
+Sintaxe do método -> Array.map()
+    ex: const array1 = [1, 4, 9, 16];
+
+        const map1 = array1.map(x => x * 2); // Quero multiplicar cada elemento do vetor pelo número 2 (elemento será elemento vezes 2).
+        console.log(map1);
+        // Saída: Array [2, 8, 18, 32]
+
+Ref Bibliográficas
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/array/map
