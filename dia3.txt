@@ -1,0 +1,26 @@
+Como integrar uma API com Fetch API
+
+O que é o Fetch API? -> A Fetch API fornece uma interface para buscar recursos (incluindo através da rede). Fetch fornece uma definição genérica de objetos Requeste Response(e outras coisas envolvidas com solicitações de rede). Isso permitirá que eles sejam usados ​​onde quer que sejam necessários no futuro, seja para service workers, Cache API e outras coisas semelhantes que lidam ou modificam solicitações e respostas, ou qualquer tipo de caso de uso que possa exigir que você gere suas respostas programaticamente (ou seja, o uso de programa de computador ou instruções de programação pessoal).
+
+Fetch API:
+    Front-end <-> Back-end <-> Banco de dados
+
+* Front-end faz uma solicitação ao Back-end
+** Back-end valida a solicitação e a coleta do banco de dados
+*** Informação é exibida no Front-end
+
+- Requisição Assíncrona!
+    - Devolve uma promisse.
+
+- Json -> Padrão de comunicação de linguagens.
+
+{
+    Requisições: 'Post', 'Get', 'Update', 'Delete'
+}
+
+
+Utilzação: 
+
+fetch('url')
+.then((response) => response.json())
+.then((data) => console.log(data))
