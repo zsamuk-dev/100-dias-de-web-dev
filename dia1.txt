@@ -1,0 +1,21 @@
+Como criar uma aplicação REACT com VITE 
+
+https://vitejs.dev/ -> É uma ferramenta para o frontend JavaScript com a qual você pode gerar estrutura de código de vários frameworks como React, Vanilla, Vue, Svelte e outros. Além de ser um gerador muito rápido, o Vite.js nos poupa muito tempo configurando outras bibliotecas.
+
+Preparando o ambiente: 
+
+1. Vá no terminal e selecione aonde o projeto será montado.
+2. npm create vite@latest
+3. Insira o nome do projeto
+4. Selecione o framework (React nesse caso)
+5. Selecione a variante (JavaScript)
+6. Aguarde a criação da pasta e em seguida abra o editor de código
+7. npm install (na pasta do projeto)
+8. npm run dev (abre o ambiente de desenvolvimento)
+
+Ref Bibliográficas
+
+- https://vitejs.dev/
+- https://community.revelo.com/crie-um-projeto-react-js-com-vite-js-do-zero/#:~:text=Vite.-,js,gerador%20muito%20r%C3%A1pido%2C%20o%20Vite.
+
+
