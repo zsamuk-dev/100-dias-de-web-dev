@@ -1,0 +1,12 @@
+Como utilizar useState - O Principal Hook do REACT
+
+O que é um Hook -> Um Hook é uma função especial que permite que você "enganche" os recursos do React. Por exemplo, useState é um hooke que permite adicioanar estado React a componentes de função.
+
+const [state, setState] = useState(valor inicial)
+
+* Variável de estado
+
+// Exemplo estará na pasta do dia 1
+Ref. Bibligráficas
+
+-https://pt-br.reactjs.org/docs/hooks-state.html
