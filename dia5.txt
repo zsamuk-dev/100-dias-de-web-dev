@@ -1,0 +1,5 @@
+Como criar um MODAL com REACT 
+
+O que é um modal -> Também é chamado de Pop-Up é uma tela menor que sobrepõe outra principal, e pode mostrar informações ou levar o usuário para outra página.
+
+Exemplo está na pasta do dia 1!
