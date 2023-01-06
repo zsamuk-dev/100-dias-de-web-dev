@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+.contact-us {
+    background-image: linear-gradient(to right, #2ad1f8, #8a58b9);
+    color: white;
+    padding: 40px;
+}
+
+form {
+    padding: 40px;
+}
+
+.name label {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 0.25rem;
+}
+
+.name input {
+    width: 320px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.invalid {
+    border: 1px solid #ff0000;
+}
+
+.error {
+    font-size: 12px;
+    color: #ff0000;
+}
+
+hr {
+    background-image: linear-gradient(to right, #2ad1f8, #8a58b9);
+    height: 1px;
+    border: none;
+    margin: 30 0;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    background: none;
+    border: 1px solid #8a58b9;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, #2ad1f8, #8a58b9);
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.error-hidden {
+    display: none;
+    
+}
